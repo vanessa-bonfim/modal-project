@@ -5,24 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Version Modal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flex.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="util.css">
 </head>
 
 <body>
-    <div>
-        <div>
-            <h2>My Modal Title</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias sapiente perferendis, adipisci quidem
+    <div class="container h-100 b-red-1 d-flex flex-justify-content-center flex-align-items-center">
+        <div class="b-red-1 w-modal min-h-400">
+            <h2 class="d-flex flex-align-items-center flex-justify-content-center p-20 b-red-1">My Modal Title</h2>
+            <p class="d-flex p-20 b-red-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias sapiente
+                perferendis, adipisci quidem
                 atque temporibus neque. Suscipit, architecto ad! Excepturi labore accusantium, quibusdam distinctio
-                commodi vitae accusamus consequuntur a natus?</p>
-            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, molestias. Alias laborum
-                repellendus
-                esse, debitis molestias error, magni, nihil consequatur provident iste enim atque ut. Laboriosam,
-                quis.
-                Dolore, facilis aspernatur.</p>
-            <button>Cancelar</button>
-            <button>Avançar</button>
-
+                commodi vitae accusamus consequuntur a natus?
+            </p>
+            <p class="d-flex p-20 b-red-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias sapiente
+                perferendis, adipisci quidem
+                atque temporibus neque. Suscipit, architecto ad! Excepturi labore accusantium, quibusdam distinctio
+                commodi vitae accusamus consequuntur a natus?
+            </p>
+            <div class="b-red-1 d-flex flex-justify-content-end p-20">
+                <button class="b-red-1">Cancelar</button>
+                <button class="b-red-1">Avançar</button>
+            </div>
         </div>
     </div>
 </body>
