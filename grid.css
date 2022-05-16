@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
 }
 
 [class*="col-"] { /*gutter - espaços entre colunas grid*/
@@ -57,44 +57,44 @@
 
 /*0 até 600px (No máximo até ao valor atribuido) */
 @media only screen and (max-width: 768px) { 
-    [class*="col-"] {
+   /*  [class*="col-"] {
         width: 100%;
-    }
+    } */
 }
 
 /* A partir de 576 (Tem que ter no mínimo essa largura para que apareça essas alterações.)*/
 /* small devices */
 @media only screen and (min-width: 576px)  {
-    .container {
+   /*  .container {
         max-width: 540px;
-    }
+    } */
 }
 
 /* A partir de 576 (Tem que ter no mínimo essa largura para que apareça essas alterações.)*/
 /* medium devices */
 @media only screen and (min-width: 768px) {
-    .container {
+    /* .container {
         max-width: 720px;
-    }
+    } */
 }
 
 /* large devices */
 @media only screen and (min-width: 992px) {
-    .container {
+ /*    .container {
         max-width: 960px;
-    }
+    } */
 }
 
 /* X-large devices */
 @media only screen and (min-width: 1200px) {
-    .container {
+   /*  .container {
         max-width: 1140px;
-    }
+    } */
 }
 
 /* XX-Large devices */
 @media only screen and (min-width: 1400px) {
-    .container {
+   /*  .container {
         max-width: 1320px;
-    }
+    } */
 }

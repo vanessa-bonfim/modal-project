@@ -2,10 +2,21 @@
     text-align: center;
 }
 
-.border-red-1 {
+.b-red-1 {
     border: solid 1px red;
 }
 
-.min-h-500 {
-    min-height: 500px;
+.vh-100 {
+    height: 100vh;
+}
+.min-h-400 {
+    min-height: 400px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.w-modal {
+    width: 375px;
 }
