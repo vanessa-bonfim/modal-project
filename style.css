@@ -40,3 +40,9 @@ html, body {
 button {
     font-family:'Open Sans';
 }
+
+img {
+    position: absolute;
+    top:0;
+    right: 0;
+}

@@ -3,9 +3,10 @@
     /* margin: auto; */
 }
 
-[class*="col-"] { /*gutter - espaços entre colunas grid*/
+/* [class*="col-"] { /*gutter - espaços entre colunas grid
     padding: 5px 15px;
-}
+} 
+*/
 
 .col-1 {
     width: 8.33%;

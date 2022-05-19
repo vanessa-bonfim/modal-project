@@ -20,3 +20,7 @@
 .w-modal {
     width: 375px;
 }
+
+.relative {
+    position: relative;
+}
