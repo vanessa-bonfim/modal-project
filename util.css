@@ -13,14 +13,49 @@
     min-height: 400px;
 }
 
-.p-20 {
-    padding: 20px;
+.p-15 {
+    padding: 15px;
 }
 
+.p-left-right-bottom-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.p-left-right-top-15{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+
 .w-modal {
-    width: 375px;
+    width: 376px;
 }
 
 .relative {
     position: relative;
+}
+
+.p-top-bottom-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bd-radius-5 {
+    border-radius: 5px; ;
+}
+.bd-bottom-1 {
+    border-bottom: solid 1px #f2f2f2f2;;
+}
+.bd-top-1 {
+    border-top: solid 1px #f2f2f2f2;;
+}
+
+.m-top-15 {
+    margin-top: 15px;
+}
+.m-right-15 {
+    margin-right: 15px;
 }
