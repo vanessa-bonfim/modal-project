@@ -10,9 +10,9 @@
 }
 
 :root {
-    --color-text:#f2f2f2f2;
-    --color-bg-modal:#424242;
-    --color-bg-button:#424242;
+    --color-text:#363535;
+    --color-bg-modal:#ffffff;
+    --color-bg-button:#ffffff;
     --color-bg-container: gray;
 }
 
@@ -43,7 +43,7 @@ button {
     padding-right: 10px;
     height: 30px;
     font-size: 0.9rem;
-    border: solid 1px #f2f2f2f2;
+    border: solid 1px #d6d1d1;
     transition: border-color, background-color  300ms linear;
    
     
@@ -51,15 +51,15 @@ button {
 
 div .hover-1:hover {
     cursor: pointer;
-    background-color: hsl(0, 2%, 37%);
-    border-color: hsl(0, 2%, 37%);
+    background-color: hsl(0, 58%, 87%);
+    border-color: hsl(0, 38%, 76%);
     
    }
 
 div .hover-2:hover {
     cursor: pointer;
-    background-color: hsl(123, 23%, 31%);
-    border-color: hsl(123, 23%, 31%);
+    background-color: hsl(123, 65%, 89%);
+    border-color: hsl(125, 54%, 81%);
 
    }
 
