@@ -5,12 +5,28 @@
 .b-red-1 {
     border: solid 1px red;
 }
+.relative {
+    position: relative;
+}
 
 .vh-100 {
     height: 100vh;
 }
+
 .min-h-400 {
     min-height: 400px;
+}
+
+.w-modal {
+    width: 376px;
+}
+
+.m-top-15 {
+    margin-top: 15px;
+}
+
+.m-right-10 {
+    margin-right: 10px;
 }
 
 .p-15 {
@@ -29,15 +45,6 @@
     padding-top: 15px;
 }
 
-
-.w-modal {
-    width: 376px;
-}
-
-.relative {
-    position: relative;
-}
-
 .p-top-bottom-15 {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -46,16 +53,17 @@
 .bd-radius-5 {
     border-radius: 5px; ;
 }
+
 .bd-bottom-1 {
     border-bottom: solid 1px #303f9f;
 }
+
 .bd-top-1 {
     border-top: solid 1px #303f9f;
 }
 
-.m-top-15 {
-    margin-top: 15px;
+.box-shadow {
+box-shadow: 5px 5px #303f9f;
+
 }
-.m-right-10 {
-    margin-right: 10px;
-}
+

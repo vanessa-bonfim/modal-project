@@ -18,7 +18,7 @@
 
     --color-v2-text:#363535;
     --color-v2-bg-modal:#ffffff;
-    --color-v2-bg-button:#ffffff;
+    --color-v2-bg-button:#e2e4f3;
     --color-v2-bg-container: gray;
 
 
@@ -32,7 +32,7 @@ html, body {
     background-color: var(--color-v3-bg-modal);
 }
 
-.bc-container{
+.bc-container {
     background-color: var(--color-v2-bg-container);
 }
 
@@ -55,31 +55,27 @@ html, body {
     color: var(--color-v3-text);
 }
 
-.border-color {
-    border-color: var(--color-v3-bg-button);
-}
-
 button {
     font-family:'Open Sans';
     padding-left: 10px;
     padding-right: 10px;
     height: 30px;
     font-size: 0.9rem;
-    border: solid 1px #d6d1d1;
-    transition: border-color, background-color  300ms linear;
+    border: solid 1px var(--color-v3-bg-button);
+    transition: background-color 300ms linear;
    
     
 }
 
 div .hover-1:hover {
     cursor: pointer;
-    background-color: hsl(0, 58%, 87%);
+    background-color: hsl(218, 37%, 84%);
     
    }
 
 div .hover-2:hover {
     cursor: pointer;
-    background-color: hsl(123, 65%, 89%);
+    background-color: hsl(217, 79%, 44%);
 
    }
 
@@ -94,7 +90,7 @@ h3 {
     font-size: 1rem;
 }
 
-p{
+p {
     line-height: 1.6rem;
     font-size: 0.9rem;
 
