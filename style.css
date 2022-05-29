@@ -10,31 +10,53 @@
 }
 
 :root {
-    --color-text:#363535;
-    --color-bg-modal:#ffffff;
-    --color-bg-button:#ffffff;
-    --color-bg-container: gray;
+
+    --color-v3-text:#ffffff;
+    --color-v3-bg-modal:#e2e4f3;
+    --color-v3-bg-button:#303f9f;
+    --color-v3-bg-container: gray;
+
+    --color-v2-text:#363535;
+    --color-v2-bg-modal:#ffffff;
+    --color-v2-bg-button:#ffffff;
+    --color-v2-bg-container: gray;
+
+
 }
 
 html, body {
     font-family:'Open Sans';
 }
 
-.bc-modal-gray {
-    background-color: var(--color-bg-modal);
+.bc-modal {
+    background-color: var(--color-v3-bg-modal);
 }
 
 .bc-container{
-    background-color: var(--color-bg-container);
+    background-color: var(--color-v2-bg-container);
 }
 
 
-.bc-button {
-    background-color: var(--color-bg-button);
+.bc-button-v2 {
+    background-color: var(--color-v2-bg-button);
 }
+
+.bc-button-v3 {
+    background-color:var(--color-v3-bg-button)
+}
+    
+
 
 .c-text-white {
-    color: var(--color-text);
+    color: var(--color-v2-text);
+}
+
+.c-text-button-v3 {
+    color: var(--color-v3-text);
+}
+
+.border-color {
+    border-color: var(--color-v3-bg-button);
 }
 
 button {
@@ -52,18 +74,17 @@ button {
 div .hover-1:hover {
     cursor: pointer;
     background-color: hsl(0, 58%, 87%);
-    border-color: hsl(0, 38%, 76%);
     
    }
 
 div .hover-2:hover {
     cursor: pointer;
     background-color: hsl(123, 65%, 89%);
-    border-color: hsl(125, 54%, 81%);
 
    }
 
 img {
+    cursor: pointer;
     position: absolute;
     top: 10px;
     right: 10px;
